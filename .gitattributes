@@ -4,6 +4,7 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
-*.node filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.node filter=lfs diff=lfs merge=lfs -text
 .next/** filter=lfs diff=lfs merge=lfs -text
+*.node filter=lfs diff=lfs merge=lfs -text
 node_modules/** filter=lfs diff=lfs merge=lfs -text
