@@ -1,0 +1,73 @@
+/* [project]/-Gireesh-Portfolio-master/components/layout/Scene.module.css [app-client] (css) */
+.Scene-module__bRlR2W__hold {
+  background: var(--bg, #fff);
+  isolation: isolate;
+  height: 100svh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.Scene-module__bRlR2W__hold > * {
+  height: 100%;
+}
+
+.Scene-module__bRlR2W__runway {
+  z-index: 0;
+  pointer-events: none;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .Scene-module__bRlR2W__hold {
+    isolation: auto;
+    height: auto;
+    min-height: auto;
+    position: static;
+    overflow: visible;
+  }
+
+  .Scene-module__bRlR2W__hold > * {
+    height: auto;
+  }
+
+  .Scene-module__bRlR2W__runway {
+    display: none;
+  }
+
+  .Scene-module__bRlR2W__keepFrame {
+    isolation: isolate;
+    height: 100svh;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+
+  .Scene-module__bRlR2W__keepFrame > * {
+    height: 100%;
+  }
+
+  .Scene-module__bRlR2W__keepRunway {
+    display: block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Scene-module__bRlR2W__hold, .Scene-module__bRlR2W__keepFrame {
+    isolation: auto;
+    height: auto;
+    min-height: auto;
+    position: static;
+    overflow: visible;
+  }
+
+  .Scene-module__bRlR2W__hold > *, .Scene-module__bRlR2W__keepFrame > * {
+    height: auto;
+  }
+
+  .Scene-module__bRlR2W__runway, .Scene-module__bRlR2W__keepRunway {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=-Gireesh-Portfolio-master_components_layout_Scene_module_css_1igg3k2._.single.css.map*/
